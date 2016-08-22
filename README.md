@@ -1,3 +1,3 @@
-# pyDaemon
+# py_daemon
 
 Initial commit.

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+if [ ! -z "${DEV_BASE// }" ]
+then
+  cd $DEV_BASE/py/py_daemon
+  
+  autopep8 -ai -r py_daemon *.py
+  echo "not styling example/ subdir"
+  echo "not styling .git/ subdir"
+  echo "not styling pyDummy/ subdir"
+  
+else
+  echo "DEV_BASE is not defined"
+fi

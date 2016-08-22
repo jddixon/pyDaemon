@@ -1,2 +1,6 @@
-py/pyDaemon/CHANGES
+py/py_daemon/CHANGES
 
+v0.0.1
+    2016-08-21
+        * initial commit
+        * add setup.py, py_daemon/__init__.py, .dvcz, standard bash files
