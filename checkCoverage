@@ -1,0 +1,12 @@
+# py_daemon/checkCoverage
+
+# see coverage.readthedocs.io/en/latestt/config.html
+#
+## last line should be test*.py
+nosetests \
+    --with-coverage --cover-html \
+    --cover-tests \
+    --cover-erase \
+    --cover-branches \
+    --cover-inclusive  \
+    py_daemon
