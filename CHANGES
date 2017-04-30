@@ -1,5 +1,8 @@
 py/py_daemon/CHANGES
 
+v0.1.1
+    2017-04-30
+        * drop dist/* from repos; plus minor edits                  SLOC  313
 v0.1.0
     2016-10-04
         * add pylint and coverage                                   SLOC  287
@@ -7,4 +10,5 @@ v0.0.1
     2016-08-21
         * initial commit
         * add setup.py, py_daemon/__init__.py, .dvcz, standard bash files
+
 

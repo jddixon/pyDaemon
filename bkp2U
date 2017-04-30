@@ -4,10 +4,12 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/py/py_daemon
   
-  blListGen \
+  bl_listgen \
     -d ../py_daemon \
     -1L  \
     -u $DVCZ_UDIR \
+    -X cover \
+    -X htmlcov \
     -X .ssh \
     $@
   
