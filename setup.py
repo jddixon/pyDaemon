@@ -17,7 +17,7 @@ setup(name='py_daemon',
       py_modules=[],
       packages=['py_daemon'],
       # following could be in scripts/ subdir
-      scripts=[ ],
+      scripts=[],
       description='python3 daemonizer',
       url='https://jddixon.github.io/py_daemon',
       classifiers=[

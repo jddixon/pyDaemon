@@ -4,10 +4,8 @@ if [ ! -z "${DEV_BASE// }" ]
 then
   cd $DEV_BASE/py/py_daemon
   
-  autopep8 -ai -r py_daemon *.py
-  echo "not styling example/ subdir"
-  echo "not styling .git/ subdir"
-  echo "not styling pyDummy/ subdir"
+  autopep8 -ai *.py
+  autopep8 -air py_daemon
   
 else
   echo "DEV_BASE is not defined"

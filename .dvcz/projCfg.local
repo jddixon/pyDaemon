@@ -2,6 +2,5 @@
 
 dir:pkg:py_daemon
 dir:clr:tmp
-dir:local:example
 
 txt:std:LICENSE-APACHE-2.0.md
