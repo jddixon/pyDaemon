@@ -1,1 +1,1 @@
-pylint setup.py py_daemon
+pylint setup.py src/py_daemon
