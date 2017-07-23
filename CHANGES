@@ -1,5 +1,8 @@
 py/py_daemon/CHANGES
 
+v0.1.3
+    2017-07-23
+        * rewrite setup.py; add MANIFEST.in; edit cfg files         SLOC  315
 v0.1.2
     2017-06-18
         * restructure for pytest                                    SLOC  312
@@ -13,6 +16,7 @@ v0.0.1
     2016-08-21
         * initial commit
         * add setup.py, py_daemon/__init__.py, .dvcz, standard bash files
+
 
 
 
