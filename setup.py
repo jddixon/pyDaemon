@@ -6,7 +6,7 @@
 import re
 from distutils.core import setup
 __version__ = re.search(r"__version__\s*=\s*'(.*)'",
-                        open('py_daemon/__init__.py').read()).group(1)
+                        open('src/py_daemon/__init__.py').read()).group(1)
 
 # see http://docs.python.org/distutils/setupscript.html
 
@@ -15,7 +15,7 @@ setup(name='py_daemon',
       author='Jim Dixon',
       author_email='jddixon@gmail.com',
       py_modules=[],
-      packages=['py_daemon'],
+      packages=['src/py_daemon'],
       # following could be in scripts/ subdir
       scripts=[],
       description='python3 daemonizer',

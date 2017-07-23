@@ -2,11 +2,13 @@
 project:py_daemon
 package:py_daemon
 mainlang:py
-version:0.1.1
-versionDate:2017-04-30
+version:0.1.3
+versionDate:2017-07-23
 :?dirs?:
 dir:std:ghpDoc
 dir:std:dist
+dir:std:src
+dir:std:tests
 dir:std:.dvcz
 dir:pkg:py_daemon
 dir:clr:build
