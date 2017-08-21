@@ -1,32 +1,39 @@
 #!/usr/bin/python3
 # py_daemon/setup.py
 
-""" distutils setup for py_daemon. """
+""" Setuptools project configuration for py_daemon. """
 
-import re
-from distutils.core import setup
-__version__ = re.search(r"__version__\s*=\s*'(.*)'",
-                        open('src/py_daemon/__init__.py').read()).group(1)
+from os.path import exists
+from setuptools import setup
 
-# see http://docs.python.org/distutils/setupscript.html
+long_desc = None
+if exists('README.md'):
+    with open('README.md', 'r') as file:
+        long_desc = file.read()
 
 setup(name='py_daemon',
-      version=__version__,
+      version='0.1.4',
       author='Jim Dixon',
       author_email='jddixon@gmail.com',
+      long_description=long_desc,
+      packages=['py_daemon'],
+      package_dir={'': 'src'},
       py_modules=[],
-      packages=['src/py_daemon'],
-      # following could be in scripts/ subdir
+      include_package_data=False,
+      zip_safe=False,
       scripts=[],
       description='python3 daemonizer',
       url='https://jddixon.github.io/py_daemon',
       classifiers=[
-          'Development Status :: 1 - Planning',
           'Development Status :: 2 - Pre-Alpha',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: Apache Software License',
           'Natural Language :: English',
-          'Programming Language :: Python 3',
+          'Programming Language :: Python 2.7',
+          'Programming Language :: Python 3.3',
+          'Programming Language :: Python 3.4',
+          'Programming Language :: Python 3.5',
+          'Programming Language :: Python 3.6',
+          'Programming Language :: Python 3.7',
           'Topic :: Software Development :: Libraries :: Python Modules',
-      ],
-      )
+      ],)
