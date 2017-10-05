@@ -7,24 +7,21 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-py_daemon v0.1.4
-2017-08-21 18:19:26
+py_daemon v0.1.5
+2017-10-05 17:19:40
 # BEGIN CONTENT #
 py_daemon
- .cache
-  v
-   cache
-    lastfailed bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f
  .dvcz
-  builds de210640699f841754dbd130a6769af15d88bc25
+  builds a99ee4370cd593304561ac1d9cf6df8520d8a8dc
   copyright ab39c54239118a4b086b878b7878100f769dd197
-  lastBuildList 7e2f0de89da8252e7fa436a14e9ab2bee432da4e
+  lastBuildList ec8e602b5abcd3a9db38df9520e779ee390cc431
   license 62eb0db178518a8376b23676c2639eb2732c0be8
   projCfg 1283f83cb98b1e70e2bf0a1cac5bf87cfd4bf640
   projCfg.local 9f8c61817c30a5a09b76399c68e516585d482f6e
-  version 699d747405cfc9e9bcaab60df2f1f95383d23839
- .gitignore fa249afe19714b701dd828a80bd855e2ce1b05e4
- CHANGES 1fe620d61d782fc8dd535148dcbbe52e1716bcd0
+  projConfig.toml f6888ccb7c9d1b83bac63d26fd965377637f106f
+  version 0ef236e3bb1acdabcdf1287c3d2ce264364ac727
+ .gitignore c8129c7133b7a7755cefd3dfc62a9af7bc306aa0
+ CHANGES d856fb7736825015654717e7e50a06b45fdfabff
  LICENSE-APACHE-2.0.md eac6d1f6418ecacd7a4acba88f1f3e3d3be6dfc1
  MANIFEST.in 7ecdc5eedf233385e0f99ba4c6e4a42212adb46f
  README.md 44a62d216cc7a000a31c0caa354421b3c9cd4f63
@@ -37,16 +34,16 @@ py_daemon
   index.md 45fa7032c4374d788b191c0f712761eb795a22df
  installit 57c9b36750200086518520efa3b7b9a32c8939ac
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
- requirements.txt c6d7c311deb1f9daffe01952c4522869f0e3ecc4
- setup.py 7d48d9b3437c94286446746ed933a6c888167ea4
+ requirements.txt 83d2d97726d6975c872743aaaafeaae6cdaa28dc
+ setup.py 79f267b1190a0b00d880ec8f9d556760786e40f9
  src
   py_daemon
-   __init__.py ccf8fdcea64b1460e9ea87a146046308c5544449
+   __init__.py c3802ce0f8cf7f9400f9f36a9a05c29b89197b76
  styleit 4e67ddf36dcc2f4bc22f0ffcad258db96fbcc832
  test.all 15af8d3e3db4bd327641f78cd08184e53d954cc2
  test_requirements.txt 4c23abb032d9dbada71b6a2892f2d75c0be11a82
  tests
- tox.ini e026439a5bb524d02fcf6c566ca6968575abeb74
+ tox.ini 98a12ca4c94957a04750653f73426345cf120795
 # END CONTENT #
 
-RHAI9OVvvv577oi6TU3xrmJNEHu1KyQpoC+AwaihfunnWLZh7x4BfB1EHS1wfPT+12gyhh1Y9NMjxd7PUTunzjKLA0PerOzylRcN2G1ZWSj/OdHqKxis1dFz9RIyW1U0uqZoZJ4z34XTulLP7lsD3eFw5uVYM8NmdtHKTlpEVLQHceUvadsT1r4Ow7rmCCTZQzgTCnVBkw/VN49hWgIjdmTsYsKGC/Dv4/Vl5yqKZ5sH0UDqrXl2GNM4pDEo25yh1UOP8jWpC0VPitcgt6U8W/w+1f9lYwa03Feg/z+wl/hvmrc/AVJpYP+9SQOnOeO+fBx993hYu47jU7qky0N2rg==
+Rb15atgPpm1k3kMG130haBuWF3v2164f51TJunS0UszI0oNEVH+LSl1DEiQ41hl7CYPorC/uI/wfdpdnsgn2sMUPjUBl+Kkm0KquGi3wel078xdAvy04OSUjnzbyTJhWlU95eWa1fl5uDaWji0SWMTD9nuh+GVmXnFjVhsstquKXdup8HD7FGVohBW72h2bKlTwmJSJMEiBkGXfZD3qTMiZJNaorMt12RQ81rVubW4oLLBVx9qzokzcoqDpjNhDoQTv9LnpYuMMIi47DXc5eQFkok1arOoI/h7018sYhCjE7m+nmkhYnOXUkRyHUMsca8IZpVuWo3bM38yEQx6WvbA==
