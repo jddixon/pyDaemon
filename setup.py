@@ -12,7 +12,7 @@ if exists('README.md'):
         long_desc = file.read()
 
 setup(name='py_daemon',
-      version='0.1.4',
+      version='0.1.5',
       author='Jim Dixon',
       author_email='jddixon@gmail.com',
       long_description=long_desc,
@@ -22,6 +22,7 @@ setup(name='py_daemon',
       include_package_data=False,
       zip_safe=False,
       scripts=[],
+      ext_modules=[],
       description='python3 daemonizer',
       url='https://jddixon.github.io/py_daemon',
       classifiers=[
