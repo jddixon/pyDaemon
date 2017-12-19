@@ -1,34 +1,30 @@
-projConfig.toml for py_daemon
-
 [meta]
-    version = '0.1.0'
+version = "0.1.0"
 
 [project]
-    name = 'py_daemon'  # distro name
-    package = 'py_daemon'  # internal name
-    proj_dir = '/home/jdd/dev/py/py_daemon'
-    main_lang = 'py'
-    version = '0.1.5'
-    version_date = '2017-10-05'
-    author = 'Jim Dixon'
-    author_email = 'jddixon@gmail.com'
-    copyright = '2016'
-    description = 'python3 daemonizer'
-    dev_status = 'pre_alpha'
-    license = 'apache'
-    state = 'shared'
-    url = 'https://jddixon.github.io/py_daemon'
+name = "py_daemon"
+package = "py_daemon"
+proj_dir = "/home/jdd/dev/py/py_daemon"
+main_lang = "py"
+version = "0.1.6"
+version_date = "2017-12-19"
+author = "Jim Dixon"
+author_email = "jddixon@gmail.com"
+copyright = "2016"
+description = "python3 daemonizer"
+dev_status = "pre_alpha"
+license = "apache"
+state = "shared"
+url = "https://jddixon.github.io/py_daemon"
 
 [py]
-    packages=['py_daemon']
-    package_dir = ['src']
-    test_dir = ['tests']
-    py_modules=[]
-    scripts=[]
-    ext_modules=[]
-
-    # sdReq output
-    distshare=['rnglig']
-    env_vars=[]
-    requirements=['setuptools']
-    test_requirements=[]
+packages = [ "py_daemon",]
+package_dir = [ "src",]
+test_dir = [ "tests",]
+py_modules = []
+scripts = []
+ext_modules = []
+distshare = [ "rnglig",]
+env_vars = []
+requirements = [ "setuptools",]
+test_requirements = []
