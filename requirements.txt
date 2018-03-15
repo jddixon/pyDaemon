@@ -1,3 +1,2 @@
 # py_daemon/requirements.txt
 setuptools
-
