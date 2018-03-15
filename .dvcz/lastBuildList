@@ -7,18 +7,18 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-py_daemon
-2017-12-19 23:30:06
+py_daemon v0.1.7
+2018-03-15 15:46:21
 # BEGIN CONTENT #
 py_daemon
  .dvcz
-  builds d7776c37b730af51d0cbbfc8a5e0be20ab36f222
-  lastBuildList dee6140edfd83e75c8025da0fb4be7d0c106cd7f
+  builds 59f9a0ed6aee8b6702b27ea099194934771ea6e6
+  lastBuildList fa11a18185ef89dc8b0e161367a756cc6ac7712e
   projCfg 1283f83cb98b1e70e2bf0a1cac5bf87cfd4bf640
   projCfg.local 9f8c61817c30a5a09b76399c68e516585d482f6e
-  projConfig.toml 8c6c2c5f4cc11e8ad5e2d69e097082cf2307395b
+  projConfig.toml e04df2eea88b5a4381ef224e254646049cca7e31
  .gitignore c8129c7133b7a7755cefd3dfc62a9af7bc306aa0
- CHANGES 81c18ee0995a72314bae38be41a895b90e3bdfad
+ CHANGES 2c50265bc41df39dac2a87a8e37ab621221ef4be
  LICENSE-APACHE-2.0.md eac6d1f6418ecacd7a4acba88f1f3e3d3be6dfc1
  MANIFEST.in 7ecdc5eedf233385e0f99ba4c6e4a42212adb46f
  README.md 44a62d216cc7a000a31c0caa354421b3c9cd4f63
@@ -31,16 +31,16 @@ py_daemon
   index.md 45fa7032c4374d788b191c0f712761eb795a22df
  installit 57c9b36750200086518520efa3b7b9a32c8939ac
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
- requirements.txt 83d2d97726d6975c872743aaaafeaae6cdaa28dc
- setup.py 6cffbd54fe66a1977e05ea6905b8363e4a5cad80
+ requirements.txt 816cf0c738c2c48f7872264f19e3b06cdfd5be96
+ setup.py bc3a8d32da7ce3d6a7be1280fa54707f526d9e46
  src
   py_daemon
-   __init__.py 4883805491f9551c8ea3f002547e2ede8734e490
+   __init__.py b261616977c5b35f7913acab543b50e99a8304a7
  styleit 4e67ddf36dcc2f4bc22f0ffcad258db96fbcc832
  test.all 15af8d3e3db4bd327641f78cd08184e53d954cc2
- test_requirements.txt 4c23abb032d9dbada71b6a2892f2d75c0be11a82
+ test_requirements.txt ea3dd42dd07b8d928c60e387497e9153e89aa564
  tests
- tox.ini 98a12ca4c94957a04750653f73426345cf120795
+ tox.ini 7779aeaa7e635f403cd132e6251eb857c9a8ca1e
 # END CONTENT #
 
-JSHWuxDiMy5E/CCY/IRvm2TAqJKkAv4oxbp9fJPeu28gwSQocHm4qmsmcoWel4yYNon1WXnz49f+EOnP6rMlBjby0y22SUsNIJqueBLlv7KruCiy+DnmaSrJvv3bAZroV2yJJt2iAjtOpB8o5woMCAV2Z0ZoQAjn6iMtdvCJprpl+qoSM/NJbTqpc8+1RYwxcOBY1160k14Kezl2ZkuDV31kgVWZWy3wWqRFa7EsTxdzZDYcUJRrp4agdy6oegQGfQeLLpPyawQqVXCkj0xzqn/pWoNa/+faM7pS5Ri8MYdiZlC1GPqHKB24Wy4wm9Yvg9Wc6GO5vof3CEyhhkXEmw==
+g5P2raUb/sKNj4pbjCmFERE5I2EcFTnR2pwFIJM5cP+r46XuQqU7aIJcpb/PTnKrAlVlFtceaiPzhKQ50TY1wXD8P2qn68Kh1TV0b+YnGpk+Dzito+ytr5tI7AY2kL/jhmmKexHY5fMZjFltzRZ68m2Ah0G46xJQzlV0e+wPesVfzvrR5G+kyp9ODsT6/PDZ9/iC78Jh8dIMFGOZIRxvxqqR9QVUgeWy+P03zTsKO7x8+6727q0B2q86z9fHC9GTqcobeXajaoFlaldiT4wEiuE8nHjmCGkWMYrtmpSxWJtoWtAHK+aCm1PVLDehz89pZAciHCn0eUn+VPuUJqLc1w==
